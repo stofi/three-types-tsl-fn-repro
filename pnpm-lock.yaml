@@ -16,11 +16,11 @@ importers:
         specifier: '0.171'
         version: 0.171.0
       typescript:
-        specifier: ~5.6.2
-        version: 5.6.3
+        specifier: 5.6.2
+        version: 5.6.2
       vite:
-        specifier: ^6.0.1
-        version: 6.0.3
+        specifier: 6.0.1
+        version: 6.0.1
 
 packages:
 
@@ -321,13 +321,13 @@ packages:
   three@0.171.0:
     resolution: {integrity: sha512-Y/lAXPaKZPcEdkKjh0JOAHVv8OOnv/NDJqm0wjfCzyQmfKxV7zvkwsnBgPBKTzJHToSOhRGQAGbPJObT59B/PQ==}
 
-  typescript@5.6.3:
-    resolution: {integrity: sha512-hjcS1mhfuyi4WW8IWtjP7brDrG2cuDZukyrYrSauoXGNgx0S7zceP07adYkJycEr56BOUTNPzbInooiN3fn1qw==}
+  typescript@5.6.2:
+    resolution: {integrity: sha512-NW8ByodCSNCwZeghjN3o+JX5OFH0Ojg6sadjEKY4huZ52TqbJTJnDo5+Tw98lSy63NZvi4n+ez5m2u5d4PkZyw==}
     engines: {node: '>=14.17'}
     hasBin: true
 
-  vite@6.0.3:
-    resolution: {integrity: sha512-Cmuo5P0ENTN6HxLSo6IHsjCLn/81Vgrp81oaiFFMRa8gGDj5xEjIcEpf2ZymZtZR8oU0P2JX5WuUp/rlXcHkAw==}
+  vite@6.0.1:
+    resolution: {integrity: sha512-Ldn6gorLGr4mCdFnmeAOLweJxZ34HjKnDm4HGo6P66IEqTxQb36VEdFJQENKxWjupNfoIjvRUnswjn1hpYEpjQ==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -589,9 +589,9 @@ snapshots:
 
   three@0.171.0: {}
 
-  typescript@5.6.3: {}
+  typescript@5.6.2: {}
 
-  vite@6.0.3:
+  vite@6.0.1:
     dependencies:
       esbuild: 0.24.0
       postcss: 8.4.49
